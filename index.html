@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  
+  <nav id="hamburger-nav">
+    <div class="logo">Sanghee Lee</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-container">
+        <ul class="menu-links">
+          <li><a href="#about" onclick="closeMenu()">About</a></li>
+          <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+
+        </ul>
+        <div class="close-icon" onclick="closeMenu()">X</div>
+      </div>
+    </div>
+  </nav>
+<!-- 인사 -->
+<div class="section__text">
+  <p class="section__text__p1">Hello, I'm</p>
+  <h1 class="title">Sanghee Lee</h1>
+  <p class="section__text__p2">UI/UX DESIGNER</p>
+  <div class="btn-container">
+    <button class="btn btn-color-2" onclick="window.open('./assets/resume(k).pdf')">Download CV</button>
+    <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+  </div>
+  <div id="socials-container">
+    <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="window.location.href='https://linkedin.com/'" />
+</div>
+</section>
+
+  
+  <!-- About&Experiecnce -->
+  <section id="about">
+    <h3>Get To Know More</h3>
+    <h2>About Me</h2>
+    <div class="section-container">
+      <div class="details-container">
+        <img src="./assets/education.png" alt="Education icon" class="icon" />
+        
+        <h2>Education</h2>
+        <p>BA in English Language and Literature</p>
+      </div>
+      <div class="text-container">
+        <p>
+          <p>저는 영어영문학을 전공하였으며, 데이터 관련 교양 과목을 수강하면서 사용자 인터페이스 디자인에 대한 관심을 갖게 되었습니다.  </p> 
+          <p>이 관심을 바탕으로 HTML, CSS, JavaScript를 학습하였으며, 디자인 도구로는 Photoshop, After Effects, Figma, Illustrator를 익혔습니다.</p>
+          <p>또한,  David Travis의 "User Experience (UX): The Ultimate Guide to Usability and UX" 과정을 이수하였습니다.</p> 이 과정에서는 기본 개념부터 중급 수준의 주제까지 체계적으로 학습하였으며, 사용자 중심 디자인에 대한 깊은 통찰력을 얻게 되었습니다.
+        </p>
+
+
+        </p>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'" />
+  </section>
+  
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <h3>UI/UX DESIGNER</h3>
+            <div class="details-container">
+                <div class="experience-item">
+                    <img src="./assets/experience.png"alt="HTML icon" class="icon" />
+                    <p>HTML - Basic</p>
+                </div>
+                <div class="experience-item">
+                    <img src="./assets/experience.png" alt="CSS icon" class="icon" />
+                    <p>CSS - Basic</p>
+                </div>
+                <div class="experience-item">
+                    <img src="./assets/experience.png" alt="JavaScript icon" class="icon" />
+                    <p>JavaScript - Basic</p>
+                </div>
+                <div class="experience-item">
+                    <img src="./assets/experience.png" alt="Python icon" class="icon" />
+                    <p>Python - Basic</p>
+                </div>
+                <div class="experience-item">
+                    <img src="./assets/experience.png" alt="Git icon" class="icon" />
+                    <p>Git - Basic</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-containers">
+            <h3>Design Tools</h3>
+            <div class="details-container">
+                <div class="experience-item">
+                    <img src="./assets/experience.png" alt="Photoshop icon" class="icon" />
+                    <p>Photoshop - Intermediate</p>
+                </div>
+                <div class="experience-item">
+                    <img src="./assets/experience.png" alt="Illustrator icon" class="icon" />
+                    <p>Illustrator - Intermediate</p>
+                </div>
+                <div class="experience-item">
+                    <img src="./assets/experience.png" alt="After Effects icon" class="icon" />
+                    <p>After Effects - Intermediate</p>
+                </div>
+                <div class="experience-item">
+                    <img src="./assets/experience.png"alt="Figma icon" class="icon" />
+                    <p>Figma - Intermediate</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 케이스 스터디 -->
+  <section id="projects">
+    <h1 class="title"><h1>Case Study1</h1></h1>
+
+    <div class="menu">
+      <a href="#C1"><h3>Study1</h3> </a>
+      <a href="#C2"><h3>Study2</h3></a>
+    </div>
+
+
+
+
+<div id="C1">
+  <div class="menu">
+    <a href="#section1">Introduction</a> 
+    <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+    <a href="#section2">Objectives</a>
+    <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+    <a href="#section3">Methodology</a>
+    <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+    <a href="#section4">Personas</a>
+    <img src="./assets/arrow 옆.png"alt="Arrow icon" class="arrow-icon">
+    <a href="#section5">Red Routes</a>
+    <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+    <a href="#section6">User Stories & Scenarios</a>
+    <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+    <a href="#section7">Wireframe</a>
+    <img src="./assets/arrow 옆.png"alt="Arrow icon" class="arrow-icon">
+    <a href="#section8">Prototypes & Design</a>
+    <img src="./assets/arrow 옆.png"alt="Arrow icon" class="arrow-icon">
+    <a href="#section9">Conclusion</a>
+  </div>
+</div>
+      <div class="content">
+        <section id="section1">
+          <h2>Introduction</h2>
+          <p>이 프로젝트의 목적은 동네 슈퍼마켓이 더 많은 고객을 유치하기 위한 앱을 개발하여, 고객들이 장을 볼 때 겪는 불편한 점이나 개선이 필요한 사항들을 파악하고자 하는 것입니다.</p>
+        </section>
+        <section id="section2">
+          <div class="text-container">
+            <h2>Objectives</h2>
+            <ol ul>
+              <li>고객 경험 개선: 고객들이 장을 볼 때 겪는 불편함을 줄이고, 더 편리한 쇼핑 경험을 제공하는 앱을 개발합니다.</li>
+              <li>고객 유치: 할인 정보 제공, 다양한 레시피 연동 등을 통해 더 많은 고객을 유치합니다.</li>
+              <li>효율적인 쇼핑: 고객들이 쇼핑 리스트를 미리 작성하고, 할인 정보를 실시간으로 받아볼 수 있도록 지원합니다.</li>
+            </ol ul>
+          </div>
+        </section>
+        <section id="section3">
+          <h2>Methodology</h2>
+          <p>인터뷰 진행: 프로젝트는 친구들과 가족들을 대상으로 인터뷰를 진행했습니다. 대면 인터뷰와 전화, 문자 인터뷰를 통해 데이터를 수집했습니다. 대상자는 혼자 살거나 가족들과 함께 사는 사람들로 선정했습니다.</p>
+          <p><strong>인터뷰 질문 예시:</strong></p>
+          <ol ul>
+            <li>직접 요리를 자주 하는가?</li>
+            <li>장은 얼마나 자주 보러가는가?</li>
+            <li>주로 어디서 장을 보는가? (인터넷, 집 근처 슈퍼마켓, 대형마트)</li>
+            <li>왜 그곳을 자주 이용하는가?</li>
+            <li>사용하는 앱이 있는가? 있다면 왜 사용하는가?</li>
+            <li>없는 경우, 슈퍼마켓 앱에서 원하는 기능은 무엇인가?</li>
+            <li>보통 식단을 어떻게 생각해내는가?</li>
+            <li>장을 보러 가기 전에 미리 계획하는지, 아니면 현장에서 결정하는지?</li>
+            <li>건강한 식단에 대한 관심이 있는가?</li>
+            <li>요리할 때 레시피는 어떻게 찾는가?</li>
+            <li>자주 가는 슈퍼마켓에서 불편한 점이 있는가?</li>
+            <li>할인이나 이벤트 소식을 어디서 주로 얻는가?</li>
+          </ol ul>
+          <p> 고객들이 장을 볼 때 겪는 불편함과 개선이 필요한 점을 파악하기 위해 다양한 질문을 통해 인터뷰와 설문조사를 진행했습니다.인터뷰를 통해 아래와 같은 정보를 얻었습니다.  </p>
+        </section>
+
+        <div class="persona">
+          <img src="./assets/스티키 노트 (1).png" alt="1" />
+
+        </div>
+    
+
+        <section id="section4">
+          <h2>Personas</h2>
+    
+           
+            <div class="persona-text">
+              <h3>Primary persona</h3>
+            </div>
+
+            <div class="persona">
+              <img src="./assets/프라이머리 페르소나.png" alt="2" />
+          
+          </div>
+        </section>
+        
+        <section id="section5">
+
+          <h2>Red Routes</h2>
+          <p>고객들이 장을 볼 때 가장 많이 사용하는 기능과, 장보기에 가장 중요한 요소들을 파악하기 위해 분석한 Red Routes는 다음과 같습니다.</p>
+          <ul>
+            <div class="persona">
+              <img src="./assets/red routes.png" alt="3">
+
+            </div>
+
+            <div class="persona-text">
+              <p><strong>중요한 행동:</strong></p>
+              <ol>
+                <li>할인 정보 얻기.</li>
+                <li>요리법을 검색한다.</li>
+                <li>인터넷 쇼핑을 이용한다.(빠른 배송앱)</li>
+                <li>장을 보기 전에 메모를 작성한다.</li>
+              </ol>
+              
+            </div>
+              <div class="persona-text">
+              <p><strong>덜 중요한 행동:</strong></p>
+              <ol>
+                <li>장을 보기 전에 금액을 미리 설정.</li>
+                <li>로켓배송을 한다.</li>
+                <li>직접 방문하여 싱싱한 재료 구매.</li>
+                <li>머릿속에서 생각나는 레시피를 만든다.</li>
+              </ol>
+            </div>
+        </section>
+
+
+        <section id="section6">
+          <h2>User Stories & Scenarios</h2>
+          <div class="persona-text">
+          <p><strong>유저 스토리:</strong></p>
+          
+            <ol>
+              <li>김세라는 식단의 금액을 미리 계산하고자 할인 정보를 미리 알고 싶어함.</li>
+              <li>조은숙은 가족의 경제적 부담을 줄이기 위해 할인 쿠폰 정보를 얻고 싶어함.</li>
+              <li>김주미는 요리에 필요한 재료와 레시피를 쉽게 알고 싶어함.</li>
+              <li>이신예는 신선한 재료를 구매하기 위해 빠른 배송 서비스를 원함.</li>
+            </ol>
+            </div>
+            <div class="persona-text">
+            <p><strong>유저 시나리오:</strong></p>
+            <ol>
+              <li>위치 및 재고 확인 기능: 바쁜 이지훈이 앱을 통해 만두의 위치를 찾고 최저가로 구매.</li>
+              <li>식단 메모 기능: 박현우가 필요한 재료를 미리 메모하고 식단 관리.</li>
+              <li>커뮤니티 기능: 김영수가 다양한 레시피를 참고하고 자신의 요리를 공유.</li>
+            </ol>
+            </div>
+
+        </section>
+        <section id="section7">
+          <h2>Wireframe</h2>
+          <p>다음은 앱의 초기 종이 와이어프레임입니다.
+          </p>
+          <div class="persona">
+          <img src="./assets/wireframe 1.png" alt="Wireframe"/>
+        </div>
+        </section>
+        <section id="section8">
+          <h2>Prototypes & Design</h2>
+
+   <div class="persona-text">
+   
+
+          <div class="video-container">
+            <video controls>
+              <source src="./assets/케이스스터디 영상.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
+        <section id="section9">
+          <h2>Conclusion</h2>
+          <p>유저 테스트와 SUS 설문 평가를 통해 발견된 개선 사항들은 다음과 같은 결론을 도출했습니다. 
+            먼저, 고객들은 바쁜 일상 속에서도 특가 상품을 사전에 파악하여 구매 목록을 효율적으로 작성할 수 있게 되었습니다. 
+            이는 고객이 슈퍼마켓에 방문하기 전에 필요한 상품을 계획적으로 준비할 수 있도록 도와줍니다. 
+            또한, 슈퍼마켓의 레이아웃이 변경되더라도 위치 찾기 기능을 통해 빠르게 상품을 찾고, 계산을 신속하게 완료할 수 있습니다. 이러한 변화는 고객의 쇼핑 경험을 크게 향상시키며, 더 많은 고객들이 편리함을 느끼게 할 것입니다.
+             궁극적으로, 이로 인해 슈퍼마켓은 고객 만족도를 높이고, 더 많은 방문객을 유치하는 데 기여할 것입니다.
+          </p>
+        <!-- 버튼 -->
+<img src="./assets/arrow 1.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+      </div>
+    </div>
+  </section>
+
+
+<!-- 케이스 스터디2 -->
+
+<section id="projects">
+  <h1 class="title"><h1>Case Study2</h1></h1>
+
+  <div class="menu">
+    <a href="#C1"><h3>Study1</h3> </a>
+    <a href="#C2"><h3>Study2</h3></a>
+  </div>
+
+
+
+
+<div id="C2">
+<div class="menu">
+  <a href="#section9">Introduction</a> 
+  <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+  <a href="#section10">Objectives</a>
+  <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+  <a href="#section11">Methodology</a>
+  <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+  <a href="#section12">Personas</a>
+  <img src="./assets/arrow 옆.png"alt="Arrow icon" class="arrow-icon">
+  <a href="#section13">Red Routes</a>
+  <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+  <a href="#section14">User Stories & Scenarios</a>
+  <img src="./assets/arrow 옆.png" alt="Arrow icon" class="arrow-icon">
+  <a href="#section15">Wireframe</a>
+  <img src="./assets/arrow 옆.png"alt="Arrow icon" class="arrow-icon">
+  <a href="#section16">Prototypes & Design</a>
+  <img src="./assets/arrow 옆.png"alt="Arrow icon" class="arrow-icon">
+  <a href="#section17">Conclusion</a>
+</div>
+</div>
+    <div class="content">
+      <section id="section9">
+        <h2>Introduction</h2>
+        <p>이 프로젝트의 목적은 동네 슈퍼마켓이 더 많은 고객을 유치하기 위한 앱을 개발하여, 고객들이 장을 볼 때 겪는 불편한 점이나 개선이 필요한 사항들을 파악하고자 하는 것입니다.</p>
+      </section>
+      <section id="section10">
+        <div class="text-container">
+          <h2>Objectives</h2>
+          <ol ul>
+            <li>고객 경험 개선: 고객들이 장을 볼 때 겪는 불편함을 줄이고, 더 편리한 쇼핑 경험을 제공하는 앱을 개발합니다.</li>
+            <li>고객 유치: 할인 정보 제공, 다양한 레시피 연동 등을 통해 더 많은 고객을 유치합니다.</li>
+            <li>효율적인 쇼핑: 고객들이 쇼핑 리스트를 미리 작성하고, 할인 정보를 실시간으로 받아볼 수 있도록 지원합니다.</li>
+          </ol ul>
+        </div>
+      </section>
+      <section id="section11">
+        <h2>Methodology</h2>
+        <p>인터뷰 진행: 프로젝트는 친구들과 가족들을 대상으로 인터뷰를 진행했습니다. 대면 인터뷰와 전화, 문자 인터뷰를 통해 데이터를 수집했습니다. 대상자는 혼자 살거나 가족들과 함께 사는 사람들로 선정했습니다.</p>
+        <p><strong>인터뷰 질문 예시:</strong></p>
+        <ol ul>
+          <li>직접 요리를 자주 하는가?</li>
+          <li>장은 얼마나 자주 보러가는가?</li>
+          <li>주로 어디서 장을 보는가? (인터넷, 집 근처 슈퍼마켓, 대형마트)</li>
+          <li>왜 그곳을 자주 이용하는가?</li>
+          <li>사용하는 앱이 있는가? 있다면 왜 사용하는가?</li>
+          <li>없는 경우, 슈퍼마켓 앱에서 원하는 기능은 무엇인가?</li>
+          <li>보통 식단을 어떻게 생각해내는가?</li>
+          <li>장을 보러 가기 전에 미리 계획하는지, 아니면 현장에서 결정하는지?</li>
+          <li>건강한 식단에 대한 관심이 있는가?</li>
+          <li>요리할 때 레시피는 어떻게 찾는가?</li>
+          <li>자주 가는 슈퍼마켓에서 불편한 점이 있는가?</li>
+          <li>할인이나 이벤트 소식을 어디서 주로 얻는가?</li>
+        </ol ul>
+        <p> 고객들이 장을 볼 때 겪는 불편함과 개선이 필요한 점을 파악하기 위해 다양한 질문을 통해 인터뷰와 설문조사를 진행했습니다.인터뷰를 통해 아래와 같은 정보를 얻었습니다.  </p>
+      </section>
+
+      <div class="persona">
+        <img src="./assets/스티키 노트2.png" alt="1" />
+
+      </div>
+  
+
+      <section id="section12">
+        <h2>Personas</h2>
+  
+         
+          <div class="persona-text">
+            <h3>Primary persona</h3>
+          </div>
+
+          <div class="persona">
+            <img src="./assets/페르소나2.png" alt="2" />
+        
+        </div>
+      </section>
+      
+      <section id="section13">
+
+        <h2>Red Routes</h2>
+        <p>고객들이 장을 볼 때 가장 많이 사용하는 기능과, 장보기에 가장 중요한 요소들을 파악하기 위해 분석한 Red Routes는 다음과 같습니다.</p>
+        <ul>
+          <div class="persona">
+            <img src="./assets/레드루트2.png" alt="3">
+
+          </div>
+
+          <div class="persona-text">
+            <p><strong>중요한 행동:</strong></p>
+            <ol>
+              <li>빠른 정보 탐색</li>
+              <li>편리한 사이즈 정보 제공</li>
+              <li>정확한 제품 정보 제공</li>
+            </ol>
+            
+          </div>
+            <div class="persona-text">
+            <p><strong>덜 중요한 행동:</strong></p>
+            <ol>
+              <li>구매 전 확인 과정 간소화</li>
+              <li>할인 및 쿠폰 활용</li>
+              <li>사용자 맞춤형 정보 제공</li>
+              <li>구매 전 리뷰 확인</li>
+
+              </ol>
+          </div>
+      </section>
+
+
+      <section id="section14">
+        <h2>User Stories & Scenarios</h2>
+
+        <div class="persona-text">
+        <p><strong>유저 스토리:</strong></p>
+        
+          <ol>
+            <li>
+              박지민: "나는 쇼핑앱을 사용할 때 필요한 정보를 빠르게 찾아보고 싶어. 시간을 절약하면서도 좋은 제품을 쉽게 찾고 싶다."
+               </li>
+            <li>박지민: "나는 옷을 구매하기 전에 사이즈 정보를 정확하게 알고 싶어. 특히 외국 브랜드의 경우, 사이즈 차이를 쉽게 이해하고 싶어."</li>
+    
+            <li>박지민:"나는 제품을 구매하기 전에 소재나 세탁 방법과 같은 중요한 정보를 빠르게 확인하고 싶어."</li>
+          </ol>
+          </div>
+
+          <div class="persona-text">
+          <p><strong>유저 시나리오:</strong></p>
+          <ul>
+            <ul style="list-style-type: disc; margin-left: 20px;">
+              
+              <li>
+                  <strong>배경:</strong> 박지민은 회사원으로, 일과 중간에 쇼핑할 시간을 내기 어렵기 때문에 점심시간이나 퇴근 후에 짧은 시간을 활용해 쇼핑을 한다. 그녀는 스마트폰으로 주로 쇼핑하며, 빠르고 효율적인 구매를 원한다.
+              </li>
+              <li>
+                  <strong>상황:</strong>
+
+                  <ol>
+                <li>박지민은 퇴근 후 집에서 통합 쇼핑몰 앱을 연다.</li>
+                <li>그녀는 관심 있는 카테고리인 여름샌들을 찾고 검색 기능을 통해 몇 가지 후보를 탐색한다.</li>
+                <li>최신순으로 정렬된 신발 중 가장 최신의 신발 한 개를 골랐다.제품 페이지로 이동하여 제품 상세 정보를 보고 사이즈와 리뷰를 확인한다.</li>
+                <li>제품 소재와 세탁 방법도 쉽게 확인하고, 제품의 품질을 신뢰할 수 있는지 판단한다.</li>
+                <li> 마지막으로, 적용할 수 있는 할인쿠폰이 있는지 확인 후 결제 버튼을 누른다.</li>
+                
+                  </ol>  
+          </ul>
+        </div>
+      <section id="section15">
+        <h2>Wireframe</h2>
+        <p>다음은 앱의 초기 와이어프레임입니다.
+        </p>
+        <div class="persona">
+        <img src="./assets/와이어 프레임2.png" alt="Wireframe"/>
+      </div>
+      </section>
+      <section id="section16">
+        <h2>Prototypes & Design</h2>
+
+ <div class="persona-text">
+ 
+
+        <div class="video-container">
+          <video controls>
+            <source src="./assets/케이스스터디2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+      <section id="section17">
+        <h2>Conclusion</h2>
+        <p>고객들은 개선된 쇼핑 플랫폼을 통해 원하는 의류를 더 쉽게 찾고, 필요한 정보를 효율적으로 확인할 수 있게 되었습니다.</p> 
+        <p>먼저, 의류 후기와 상세 정보를 한눈에 볼 수 있는 인터페이스가 도입되어, 고객들은 제품을 선택하기 전에 다른 구매자들의 후기를 확인하고, 의류의 세탁법과 같은 중요한 정보를 빠르게 파악할 수 있을 것으로 예상됩니다.</p>
+        
+
+  <p>또한, 스크롤 기능을 최적화하여 고객들이 불필요한 화면 이동 없이 원하는 섹션으로 바로 이동할 수 있게 되었습니다.</p>
+  <p> 필터 기능 역시 개선되어, 고객들은 사이즈, 색상, 스타일 등 세부 조건을 쉽게 설정하여 자신에게 맞는 제품을 빠르게 찾을 수 있었습니다. </p>
+          
+  <p>마지막으로, 구매를 결정하기 전 '최종 확인' 버튼을 통해 모든 선택 사항을 한 번 더 검토할 수 있는 기능이 추가되어, 고객의 만족도를 높였습니다. </p>
+  <p>이러한 변화는 쇼핑 경험을 크게 향상시키며, 더 많은 고객이 편리함을 느낄 수 있도록 했습니다. </p> 
+  <p>궁극적으로, 이는 고객 만족도를 높이고, 플랫폼의 신뢰도를 강화하는 데 기여할 것입니다.</p>
+          
+          
+       
+      <!-- 버튼 -->
+<img src="./assets/arrow 1.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+  <!-- 연락처 -->
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p class="section__text__p1">Get In Touch</p>
+    <div class="contact-details">
+      <p>Email: <a href="mailto:sanghee.lee@example.com">fdbdd@naver.com</a></p>
+      <p>Phone: <a href="tel:+821012345678">+82 10-2946-5110</a></p>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Sanghee Lee</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
